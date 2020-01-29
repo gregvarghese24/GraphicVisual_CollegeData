@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link href="style.css" type="text/css" rel="stylesheet" />
+		<script src="https://d3js.org/d3.v4.min.js"></script>
+		<script type="text/javascript" src="histo.js"></script>
+    <title>P5 - Greg/Seong</title>
+  </head>
+  <body>
+  <h1 align="center">INFORMATION OF COLLEGES IN THE USA</h1>
+    <div id="wrapper">
+
+      <div id="collegeSelector">
+		<p>Looking for the best College to go to? Our informational database of every US college can help you pick out your
+			dream college based on statistics. The statistics best suited for you means that college has the best envoriment
+			for you to suceed! YAY!
+		</p>
+		<!-- <p>for you to suceed! YAY!</p> -->
+
+
+        <select id="collegeSelect" onchange="generateGraphs()">
+        </select>
+	  </div>
+
+	  <!--  -->
+
+      
+	  <div id="pieChart">
+		<!-- <span id="selectionStatement"></span><br/> -->
+	  </div>
+	  
+    
+      <div id="detailChart">
+		<span id="selectionStatement"></span><br/>
+			<strong>Admission Rate:</strong> <span id="admRate"></span><br/>
+			<strong>Average Cost:</strong> <span id="avgCost"></span><br/>
+			<strong>Undergrad Population:</strong> <span id="undergradPop"></span><br/>
+			<strong>ACT Median:</strong> <span id="act"></span><br/>
+			<strong>SAT Average:</strong> <span id="sat"></span><br/>
+        
+      </div>
+    </div>
+
+  </body>
+</html>

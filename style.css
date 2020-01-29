@@ -1,0 +1,38 @@
+.pie {
+    margin: 20px;
+}
+
+svg {
+    float: left;
+}
+
+.legend {
+    float: left;
+    font-family: "Verdana";
+    font-size: .7em;
+}
+.selected {
+    stroke: red;
+    fill:red;
+}
+
+.hidden {
+    stroke: white;
+    fill: white;
+}
+.pie text {
+    font-family: "Verdana";
+    fill: #000;
+}
+
+.pie .name-text{
+    font-size: .8em;
+}
+
+.pie .value-text{
+    font-size: 3em;
+}
+
+div.a {
+    border: 2px black;
+}
